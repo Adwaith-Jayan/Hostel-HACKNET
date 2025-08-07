@@ -15,7 +15,7 @@ const AdminLogin = () => {
     console.log('Admin logging in with:', { username, password });
     
     // Use the navigate function for redirection
-    navigate("/adminrequest");
+    navigate("/admin-dashboard");
   };
 
   return (

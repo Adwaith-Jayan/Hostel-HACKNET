@@ -7,6 +7,7 @@ import AdminLogin from "./frontend/AdminLogin.jsx";
 import { StudentPreferenceForm } from './frontend/StudentPreferenceForm.jsx';
 import StudentDashboard from './frontend/StudentDashboard.jsx';
 import AdminConfirmationPage from './frontend/AdminConfirmationPage.jsx';
+import AdminDashboard from './frontend/AdminDashboard.jsx';
 
 
 
@@ -21,6 +22,8 @@ const App = () => {
           <Route path="/student-dashboard" element={<StudentDashboard />} />
           <Route path="/adminlogin" element={<AdminLogin />} />
           <Route path="/adminrequest" element={<AdminConfirmationPage/>}/>
+          <Route path="/admin-dashboard" element={<AdminDashboard/>}/>
+          <Route path="/admin/requests/:requestId" element={<AdminConfirmationPage />} />
           <Route path="/student-preference" element={<StudentPreferenceForm/>}/>
         </Routes>
       </Router>
