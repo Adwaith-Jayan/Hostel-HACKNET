@@ -1,0 +1,61 @@
+/* src/styles/HomePage.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-options {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .login-options h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .login-options p {
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .login-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .student-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .student-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .admin-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .admin-button:hover {
+    background-color: #218838;
+  }

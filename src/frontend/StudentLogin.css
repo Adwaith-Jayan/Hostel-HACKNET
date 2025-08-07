@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .login-form {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 30px;
+    color: #1a1a1a;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .input-group {
+    margin-bottom: 25px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+    background-color: #fff;
+  }
+  
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin: -10px 0 20px 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  .toggle-form {
+    margin-top: 25px;
+    font-size: 1rem;
+  }
+  
+  .toggle-form p {
+    color: #555;
+    margin: 0;
+  }
+  
+  .toggle-form span {
+    color: #007bff;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .toggle-form span:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
